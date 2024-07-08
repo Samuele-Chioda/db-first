@@ -1,0 +1,19 @@
+DB-AUTO:
+
+id_auto                         MEDIUMINT           PRIMARY_KEY     AUTO_INCREMENT      NOT_NULL
+marca                           VARCHAR(30)                                             NOT_NULL
+modello                         VARCHAR(30)                                             NOT_NULL
+anno                            YEAR                                                    NOT_NULL
+chilometraggio                  MEDIUMINT                                               NOT_NULL
+colore                          VARCHAR(15)                                             NOT_NULL
+cilindrata                      SMALLINT                                                NOT_NULL
+potenza                         SMALLINT                                                NOT_NULL
+tipo_trasmissione               VARCHAR(20)                                             NOT_NULL
+carburante                      VARCHAR(20)                                             NOT_NULL
+prezzo                          FLOAT(10,2)                                             NOT_NULL
+n_auto                          TINYINT             UNSIGNED        DEFAULT(1)          NOT_NULL
+stoccaggio_garage               VARCHAR(10)         UNSIGNED        DEFAULT(1A)         NOT_NULL
+n_proprietari                   TINYINT             UNSIGNED        DEFAULT(1)          NOT_NULL
+data_ingresso_concessionario    DATE                                                    NOT_NULL
+condizioni_auto                 TEXT                                                    NOT_NULL
+descrizione                     TEXT                                                    NOT_NULL
