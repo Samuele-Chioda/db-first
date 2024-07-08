@@ -17,3 +17,5 @@ n_proprietari                   TINYINT             UNSIGNED        DEFAULT(1)  
 data_ingresso_concessionario    DATE                                                    NOT_NULL
 condizioni_auto                 TEXT                                                    NOT_NULL
 descrizione                     TEXT                                                    NOT_NULL
+is_sold                         BOOLEAN                                                 NOT_NULL
+dimensioni_bagagliaio L.        SMALLINT                                                NULL, UNSIGNED   
